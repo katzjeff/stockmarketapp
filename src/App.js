@@ -1,9 +1,12 @@
 import "./App.css";
+import PlotlyChart from "./components/PlotlyChart";
+// import ChartLine from "./components/ChartLine";
+// import StockMarketApp from "./components/StockMarketApp";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Stock Market App</h1>
+    <div>
+      <PlotlyChart />
     </div>
   );
 }
